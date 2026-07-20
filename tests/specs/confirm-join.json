@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Я человек",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Confirm new member identity"
+            }
+          }
+        ],
+        "send": {
+          "callback": "confirm:join"
+        }
+      }
+    ]
+  }
+]
